@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+body{
+    
+    color: rgb(58, 2, 65); font-size: 1.3rem; 
+    font-family: 'Ubuntu', sans-serif;
+    align-items: center;
+    background-size: auto;
+    background-color:black;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Ubuntu', sans-serif;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+nav ul{
+    
+    display:flex;
+    /* flex-direction: column; */
+    align-items: center;
+    list-style-type: none;
+    height: 70px;
+    background-color: black;
+    color:white;
+}
+nav ul li{
+    padding: 0 20px;
+    cursor: pointer;
+}
+.carousel{
+    margin: -8px;
+}
+.brand img{
+    width: 44px;
+    padding: 0 40px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+
+.hero {
+    background-image: url('https://dl.dir.freefiremobile.com/common/web_event/official2.ff.garena.all/202210/217caa1f9379136315d0d3f801648b77.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 150px 0;
+}
+
+.hero h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #ff6600;
+    color: #fff;
+    padding: 12px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #ff8800;
+}
+
+
+
+footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
